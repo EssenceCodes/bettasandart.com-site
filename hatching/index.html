@@ -11,10 +11,12 @@
       line-height: 1.6;
     }
 
-    h1, h2 {
+    /* ONLY center the top two headings */
+    .top-center {
       text-align: center;
     }
 
+    /* Everything else stays normal (left aligned) */
     .image-row {
       display: flex;
       gap: 10px;
@@ -29,10 +31,6 @@
       border-radius: 6px;
     }
 
-    ul {
-      margin-left: 20px;
-    }
-
     footer {
       margin-top: 40px;
       text-align: center;
@@ -42,9 +40,9 @@
 
 <body>
 
-  <!-- CENTERED HEADINGS -->
-  <h1>FAIRY SHRIMP &amp; MOINA HATCHING INSTRUCTIONS</h1>
-  <h2>KEEP WATER TEMPERATURE BETWEEN 75–80°F DEGREES</h2>
+  <!-- ONLY THESE TWO LINES ARE CENTERED -->
+  <h1 class="top-center">FAIRY SHRIMP &amp; MOINA HATCHING INSTRUCTIONS</h1>
+  <h2 class="top-center">KEEP WATER TEMPERATURE BETWEEN 75–80°F DEGREES</h2>
 
   <main>
 
@@ -53,8 +51,8 @@
       <h3>Items you’ll need:</h3>
 
       <div class="image-row">
-        <img src="img/item1.jpg" alt="Aquarium air pump">
-        <img src="img/item2.jpg" alt="3/16″ flexible airline tubing">
+        <img src="img/item1.webp" alt="Aquarium air pump">
+        <img src="img/item2.webp" alt="3/16″ flexible airline tubing">
       </div>
 
       <ul>
@@ -68,12 +66,13 @@
       <h2>Step 1</h2>
       <p>
         Cut bottles along the lines. You can repurpose the water inside the bottles to hatch your moina and fairy shrimp eggs.
-        If using tap water, use a water conditioner to remove chlorine. These are freshwater invertebrates. <strong>DO NOT USE AQUARIUM SALT!</strong>
+        If using tap water, use a water conditioner to remove chlorine. These are freshwater invertebrates.
+        <strong>DO NOT USE AQUARIUM SALT!</strong>
       </p>
 
       <div class="image-row">
-        <img src="img/step1a.jpg" alt="Bottle preparation step 1">
-        <img src="img/step1b.jpg" alt="Bottle preparation step 2">
+        <img src="img/step1a.webp" alt="Bottle preparation step 1">
+        <img src="img/step1b.webp" alt="Bottle preparation step 2">
       </div>
     </section>
 
@@ -82,14 +81,14 @@
       <p>Assemble hatchery:</p>
 
       <div class="image-row">
-        <img src="img/step2a.jpg" alt="Hatchery assembly image 1">
-        <img src="img/step2b.jpg" alt="Hatchery assembly image 2">
+        <img src="img/step2a.webp" alt="Hatchery assembly image 1">
+        <img src="img/step2b.webp" alt="Hatchery assembly image 2">
       </div>
 
       <ul>
-        <li>Place one bottle upside down inside the other. The bottom one will serve as the base. Fill your hatchery with 1/3 of spring water. The weight will keep it stable.</li>
-        <li>Connect flexible air tubing to the air pump, then to the rigid air tubing.</li>
-        <li>Place rigid tubing inside your hatchery and turn on your air pump.</li>
+        <li>Place one bottle upside down inside the other. The bottom one serves as the base. Fill with 1/3 spring water to keep stable.</li>
+        <li>Connect flexible air tubing to the air pump, then to the rigid airline tubing.</li>
+        <li>Insert rigid tubing into the hatchery and turn the pump on.</li>
       </ul>
     </section>
 
@@ -98,10 +97,10 @@
       <p>Prepare and hatch the eggs:</p>
 
       <ul>
-        <li>Warm the eggs under sunlight or a light bulb for 2–4 hours. Then soak them in bottled spring water or dechlorinated freshwater for 8–24 hours.</li>
-        <li>Oxygenate the water with an air stone and turn on a lamp placed directly over the hatchery. Keep the light on until the eggs hatch.</li>
-        <li>Fairy shrimp hatch in 1–2 days. Moina hatch in 3–10 days (sometimes up to 16 if conditions are poor). Feed twice daily using dry yeast and/or spirulina — only add more food once previous food is eaten.</li>
-        <li>Keep water level stable by topping off with spring water. After 6–8 weeks, the colony will naturally die off.</li>
+        <li>Warm eggs under sunlight or a lamp for 2–4 hours. Then soak in spring or dechlorinated freshwater for 8–24 hours.</li>
+        <li>Oxygenate the water using an air stone. Turn on the lamp directly above the hatchery. Keep the light on until eggs hatch.</li>
+        <li>Fairy shrimp hatch in 1–2 days. Moina in 3–10 days (sometimes up to 16). Feed twice daily using yeast or spirulina, small amounts only.</li>
+        <li>Maintain water level by topping off with spring water. The culture naturally ends in 6–8 weeks.</li>
       </ul>
     </section>
 
@@ -109,10 +108,10 @@
       <h2>Keeping unhatched eggs</h2>
 
       <ul>
-        <li>After nine days, collect the new eggs by suctioning sediment from the bottom. The eggs look like tiny grains of brown sand.</li>
-        <li>Unhatched eggs must soak in freshwater for two weeks.</li>
-        <li>After two weeks, filter the eggs, dry them in sunlight, and store them in a zip-lock bag in a cool, dry place.</li>
-        <li>Eggs store for up to one year, but hatch rate declines over time.</li>
+        <li>After nine days, collect eggs by suctioning the sediment (looks like tiny grains of brown sand).</li>
+        <li>Soak unhatched eggs in freshwater for two weeks.</li>
+        <li>After two weeks, filter and dry the eggs in sunlight. Store in a cool, dry place.</li>
+        <li>Eggs last up to one year, but hatch rate decreases over time.</li>
       </ul>
     </section>
 
@@ -120,9 +119,9 @@
       <h2>Tips</h2>
 
       <ul>
-        <li>If you run out of food, you can use established aquarium freshwater (5–10 teaspoons) to feed them.</li>
-        <li>Newly hatched fairy shrimp and moina are tiny and may be hard to see.</li>
-        <li>If hatch rate is low, dry the eggs and repeat the “unhatched eggs” method.</li>
+        <li>If you run out of food, add 5–10 teaspoons of established aquarium water to feed them.</li>
+        <li>Newly hatched fairy shrimp and moina may be too small to see clearly.</li>
+        <li>If hatch rate is low, dry eggs and repeat the “unhatched eggs” process.</li>
       </ul>
     </section>
 
