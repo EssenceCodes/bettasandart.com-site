@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fairy Shrimp & Moina Hatching Instructions</title>
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -11,18 +12,18 @@
       line-height: 1.6;
     }
 
-    /* ONLY center the top two headings */
+    /* ONLY the top two headings are centered */
     .top-center {
       text-align: center;
     }
 
-    /* Everything else stays normal (left aligned) */
+    /* Images stay left aligned now */
     .image-row {
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
-      justify-content: center;
       margin: 15px 0;
+      justify-content: flex-start; /* ensure left alignment */
     }
 
     .image-row img {
@@ -40,7 +41,7 @@
 
 <body>
 
-  <!-- ONLY THESE TWO LINES ARE CENTERED -->
+  <!-- ONLY THESE ARE CENTERED -->
   <h1 class="top-center">FAIRY SHRIMP &amp; MOINA HATCHING INSTRUCTIONS</h1>
   <h2 class="top-center">KEEP WATER TEMPERATURE BETWEEN 75–80°F DEGREES</h2>
 
